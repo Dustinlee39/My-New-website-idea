@@ -3,6 +3,7 @@ import './particles.js';
 import './voice.js';
 import './neuralNetwork.js';
 import './blog.js';
+import './timeline.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize greeting
