@@ -2,6 +2,7 @@ import './chatbot.js';
 import './particles.js';
 import './voice.js';
 import './neuralNetwork.js';
+import './blog.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize greeting
@@ -15,5 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         greeting.textContent = "Good Evening, Visionary!";
     }
 
-    // Initialize other components as needed
+    // Initialize voice recognition
+    document.getElementById('voiceBtn').addEventListener('click', startVoiceRecognition);
 });
